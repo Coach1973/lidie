@@ -342,6 +342,20 @@ footer .fine{width:100%;text-align:center;color:#94A3B8;font-size:20px}
 #wsi .wsteps b{display:block;font-size:22px;color:var(--sage-deep)}
 #wsi .wnote{font-size:20px;color:var(--muted);margin-top:22px;line-height:1.7}
 @media(max-width:1000px){#wsi .wrow,#wsi .w3,#wsi .w5{grid-template-columns:1fr}}
+/* 正名：丅丨（2026-11-23 新增） */
+#zhengming{scroll-margin-top:84px}
+#zhengming h2{font-size:clamp(40px,4.4vw,60px);line-height:1.15;font-weight:900;color:var(--navy);margin:14px 0 18px}
+#zhengming .zm-lede{font-size:22px;line-height:1.7;color:var(--muted);max-width:42em;margin:0 0 36px}
+#zhengming .zm-cards{align-items:stretch}
+#zhengming .zm-card{background:var(--white);border:1px solid var(--line);border-radius:var(--r);padding:36px 32px 30px}
+#zhengming .zm-big{font:900 clamp(120px,16vw,180px)/1 var(--serif);color:var(--navy);text-align:center}
+#zhengming .zm-zy{text-align:center;font-size:22px;font-weight:700;color:var(--sun-ink);letter-spacing:.08em;margin:10px 0 22px}
+#zhengming .zm-card h3{font-size:28px;font-weight:800;color:var(--navy);margin:0 0 12px}
+#zhengming .zm-card p{font-size:20px;line-height:1.8;color:var(--ink);margin:0 0 14px}
+#zhengming .zm-card p.zm-sw{color:var(--sage-deep);font-weight:700}
+#zhengming .zm-card p.zm-look{color:var(--muted);margin-bottom:0}
+#zhengming .zm-close{font:700 clamp(24px,2.4vw,32px)/1.5 var(--serif);color:var(--navy);text-align:center;margin:40px 0 0}
+@media(max-width:860px){#zhengming .zm-card{padding:28px 22px}}
 </style>
 </head>
 <body>
@@ -350,6 +364,7 @@ footer .fine{width:100%;text-align:center;color:#94A3B8;font-size:20px}
   <div class="wrap">
     <a class="brand" href="#top" aria-label="回到頂端"><img src="data:image/webp;base64,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" alt="元照 T1 標誌" width="120" height="40"><b>張麗蝶</b></a>
     <nav aria-label="頁面導覽"><ul>
+      <li><a class="nl" href="#zhengming">正名</a></li>
       <li><a class="nl" href="#bio">學經歷</a></li>
       <li><a class="nl" href="#expertise">專長</a></li>
       <li><a class="nl" href="#story">生活事蹟</a></li>
@@ -395,6 +410,34 @@ footer .fine{width:100%;text-align:center;color:#94A3B8;font-size:20px}
     <div class="num"><b>10<small>張</small></b><span>2012 年即累積的<br>全球專利數</span></div>
     <div class="num"><b>6<small>項</small></b><span>國際安規認證<br>BSMI‧RoHS‧PSE‧CE‧FCC‧UL</span></div>
     <div class="num"><b>2010<small>起</small></b><span>走訪社福團體<br>以影像為公益留下紀錄</span></div>
+  </div>
+</section>
+
+<!-- 正名：丅丨 -->
+<section class="sec" id="zhengming" aria-labelledby="h-zhengming">
+  <div class="wrap">
+    <span class="kicker">正名</span>
+    <h2 id="h-zhengming">T1，原來是兩個漢字</h2>
+    <p class="zm-lede">丅看起來像英文字母 T，丨看起來像數字 1，兩個並排就是 T1。但它們不是英文，是寫了兩千多年的漢字，意思都收在《說文解字》裡。</p>
+    <div class="two zm-cards">
+      <article class="zm-card">
+        <div class="zm-big" aria-hidden="true">丅</div>
+        <p class="zm-zy">ㄒㄧㄚˋ　·　xià</p>
+        <h3>丅，就是「下」的古字</h3>
+        <p class="zm-sw">《說文解字》：「下，底也。指事。」——篆文寫作「丅」。</p>
+        <p>指事字。甲骨文的「下」，上面一長橫是界線，下面一短橫落在界線之下，表示位置在低處；小篆把短橫豎起來、與長橫垂直，就成了丅這個 T 形。丅是「下」的篆文寫法，讀音、意思都和「下」一樣。</p>
+        <p class="zm-look">看起來像：英文字母 T</p>
+      </article>
+      <article class="zm-card">
+        <div class="zm-big" aria-hidden="true">丨</div>
+        <p class="zm-zy">ㄍㄨㄣˇ　·　gǔn</p>
+        <h3>丨，一畫貫通上下</h3>
+        <p class="zm-sw">《說文解字》：「丨，下上通也。」</p>
+        <p>只有一畫，卻自成一個字、一個部首（康熙二一四部首「丨部」）。一豎從上通到下，所以叫「上下貫通」；寫字時叫它「豎」，「中」字裡的那一豎就是它——《說文》說「中」從口、丨，上下通。《廣韻》也說：「上下相通。」</p>
+        <p class="zm-look">看起來像：數字 1、英文字母 I</p>
+      </article>
+    </div>
+    <p class="zm-close">一個指下方，一個通上下——兩個字並排，看起來就是 T1。</p>
   </div>
 </section>
 
